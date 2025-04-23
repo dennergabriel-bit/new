@@ -1,0 +1,66 @@
+:root {
+    --primary:   #A020F0;
+    --gray100:   #f5f5f5;
+    --gray200:   #c4c4c4;
+   }
+
+
+*  {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: arial, sans-serif;
+}
+
+body {
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+   background-color:  #f4f4f4;
+}
+
+.navbar {
+   background: var(--primary);
+   width: 100%;
+   color: white;
+   padding: 30px 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+
+.navbar h1 {
+     font-family: "Boldonse";
+     font-size: 2.8em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.navbar h1 {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Menu {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.Menu a {
+   color: #f5f5f5;
+   text-decoration: none;
+}
+
+.Menu a:hover {
+   transform: scale(1.55)
+}
+
+.table {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
