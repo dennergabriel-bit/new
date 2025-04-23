@@ -109,3 +109,13 @@ footer {
     flex-wrap: wrap;
     
 }
+
+.carousel-item {
+    height: 450px;
+    
+}
+
+.carousel-item img {
+    position: relative;
+    top: -200px;
+}
